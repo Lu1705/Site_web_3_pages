@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../media/background_titre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    color: rgb(226, 226, 226);
+    text-shadow: 2px 1px 1px black;
+    display: flex;
+    width: 100vw;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.rune{
+    display: flex;
+    width: 100%;
+    background-image: url(../media/rune_background2.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+.hollowknight{
+    display: flex;
+    width: 100%;
+    background-image: url(../media/hollow_knight_background.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.steampunk{
+    display: flex;
+    width: 100%;
+    background-image: url(../media/steampunkpng.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+footer{
+    color: rgb(226, 226, 226);
+    text-shadow: 2px 1px 1px black;
+    display: flex;
+    width: 100vw;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(../media/background_titre.jpg);
+    background-size: 100%;
+    padding: 20px
+}
+
+h3{
+    display: flex;
+    width: 90%;
+    margin: 25px;
+}
+
+a{
+    display: flex;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}

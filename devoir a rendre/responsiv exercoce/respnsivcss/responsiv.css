@@ -1,0 +1,38 @@
+/*on applique des proprietées CSS a la taille d ecran au dessus de 1024px  */
+body{
+    background-color: #76d3d3;
+}
+
+p{
+    color: blue;
+}
+
+
+
+@media screen and (max-width: 1024px){/* Nouvelles règles si la fenêtre fait  1024px de large ou moins */
+    body{
+        background-color: antiquewhite;
+    }
+    .resp{
+        color:red;
+        /* display: none; */
+    }
+    img{
+        display: none;
+    }
+}
+
+
+ @media all and (max-device-width: 480px)/*pour le mobile on va utiliser le max-device-width car cela permet de cibler la largeur de l ecran */
+{
+    body{
+        background-color: blueviolet;
+    }
+    p{
+        color: green;
+    }
+    .resp{
+        color: yellow;
+    }
+
+}

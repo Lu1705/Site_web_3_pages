@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../media/plaine.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/parchperso\ droit.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 1% auto;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+.personnages{
+    font-size: x-large;
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    background-image: url(../media/parchperso.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+ol{
+    margin-left: 3%;
+}
+
+ul{
+    margin-left: 3%;
+}
+
+.sanspersonnages{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+    justify-content: space-around;
+}
+
+.mission{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 60%;
+    background-image: url(../media/fond\ parchemin.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1%;
+}
+
+.carte{
+    display: flex;
+    margin-top: 1%;
+}
+
+footer{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    padding: 1%;
+    background-image: url(../media/parchperso\ droit.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 1% auto;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personnages{
+        width: 90%;
+        margin-bottom: 1%;
+    }
+
+    .sanspersonnages{
+        width: 95%;
+        margin-top: 1%;
+    }
+}
+
+
+@media all and (max-device-width: 556px){
+    .personnages{
+        width: 80%;
+        font-size: small;
+    }
+    
+    .mission{
+        font-size: x-small;
+    }
+
+    footer{
+        font-size: x-small;
+    }
+}
